@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.greencode/
+*.tmp
