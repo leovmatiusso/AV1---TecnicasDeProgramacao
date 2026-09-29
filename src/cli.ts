@@ -1,5 +1,7 @@
+//2,5
 import { createInterface, type Interface } from 'node:readline';
 import { homedir } from 'node:os';
+//7
 import { join } from 'node:path';
 import { mkdir, readFile, rename } from 'node:fs/promises';
 import {
@@ -9,13 +11,18 @@ import {
   statusRastreamento,
   type EstadoFisico,
   type PapelUsuario,
+  //6
   type StatusRastreamento,
+  //1
   type TipoEquipamento,
 } from './domain.js';
+//4
 import {
+  //8
   carregarConfig,
   cifrar,
   decifrar,
+  //3
   gravarPrivado,
   novoConfig,
   ServicoAutenticacao,
